@@ -11,8 +11,8 @@ run:
 build:
 	$(BROWSERIFY) app.js | $(UGLIFY) -c -m -o index.js
 
-pushall:
-	git push origin gh-pages
+pushall: sync
+	git push origin main
 
 prettier:
 	prettier --single-quote --write "**/*.js"
