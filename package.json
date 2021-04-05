@@ -1,0 +1,21 @@
+{
+  "name": "svgbrowse",
+  "version": "1.0.0",
+  "description": "Simple zooming and panning SVG viewer.",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim Kang",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "eslint": "^7.23.0",
+    "uglify-es": "^3.2.2"
+  },
+  "dependencies": {
+    "d3-selection": "^1.2.0",
+    "d3-zoom": "^1.7.1",
+    "handle-error-web": "^1.0.1"
+  }
+}
